@@ -6,22 +6,22 @@ Xiangnan He, Lizi Liao, Hanwang Zhang, Liqiang Nie, Xia Hu and Tat-Seng Chua (20
 
 Three collaborative filtering models: Generalized Matrix Factorization (GMF), Multi-Layer Perceptron (MLP), and Neural Matrix Factorization (NeuMF). To target the models for implicit feedback and ranking task, we optimize them using log loss with negative sampling. 
 
-**Please cite our WWW'17 paper if you use our codes. Thanks!** 
-
 Author: Dr. Xiangnan He (http://www.comp.nus.edu.sg/~xiangnan/)
+
+Notebooks by Guy Shtar.
 
 ## Environment Settings
 We use Keras with Tensorflow as the backend. 
 - Keras version:  '2.1.3'
 - Tensorflow version: '1.1.0'
 
-## Notebooks:
+## Notebooks
 
 neural_collaborative_filtering.ipynb - a jupyter notebook for running the examples, with missing code to be filled by participants.
 
 neural_collaborative_filtering - Sol.ipynb - the complete jupyter notebook for running the examples.
 
-## Example to run the original codes.
+## Example to run the original codes
 The instruction of commands has been clearly stated in the codes (see the  parse_args function). 
 
 Run GMF:
