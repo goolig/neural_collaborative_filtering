@@ -1,6 +1,6 @@
 # Neural Collaborative Filtering
 
-This is an hand-on workshop for neural collaborative filtering based the paper:
+This is an hand-on workshop for neural collaborative filtering (dimensionality reduction using deep neural networks) based the paper:
 
 Xiangnan He, Lizi Liao, Hanwang Zhang, Liqiang Nie, Xia Hu and Tat-Seng Chua (2017). [Neural Collaborative Filtering.](http://dl.acm.org/citation.cfm?id=3052569) In Proceedings of WWW '17, Perth, Australia, April 03-07, 2017.
 
@@ -8,7 +8,7 @@ Three collaborative filtering models: Generalized Matrix Factorization (GMF), Mu
 
 Author: Dr. Xiangnan He (http://www.comp.nus.edu.sg/~xiangnan/)
 
-Notebooks by Guy Shtar.
+Notebooks by Guy Shtar (https://www.linkedin.com/in/guy-shtar-71309881/).
 
 ## Environment Settings
 We use Keras with Tensorflow as the backend. 
