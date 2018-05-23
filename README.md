@@ -1,6 +1,6 @@
 # Neural Collaborative Filtering
 
-This is our implementation for the paper:
+This is an hand-on workshop for neural collaborative filtering based the paper:
 
 Xiangnan He, Lizi Liao, Hanwang Zhang, Liqiang Nie, Xia Hu and Tat-Seng Chua (2017). [Neural Collaborative Filtering.](http://dl.acm.org/citation.cfm?id=3052569) In Proceedings of WWW '17, Perth, Australia, April 03-07, 2017.
 
@@ -11,11 +11,17 @@ Three collaborative filtering models: Generalized Matrix Factorization (GMF), Mu
 Author: Dr. Xiangnan He (http://www.comp.nus.edu.sg/~xiangnan/)
 
 ## Environment Settings
-We use Keras with Theano as the backend. 
-- Keras version:  '1.0.7'
-- Theano version: '0.8.0'
+We use Keras with Tensorflow as the backend. 
+- Keras version:  '2.1.3'
+- Tensorflow version: '1.1.0'
 
-## Example to run the codes.
+## Notebooks:
+
+neural_collaborative_filtering.ipynb - a jupyter notebook for running the examples, with missing code to be filled by participants.
+
+neural_collaborative_filtering - Sol.ipynb - the complete jupyter notebook for running the examples.
+
+## Example to run the original codes.
 The instruction of commands has been clearly stated in the codes (see the  parse_args function). 
 
 Run GMF:
@@ -56,4 +62,4 @@ test.negative
 - Each line corresponds to the line of test.rating, containing 99 negative samples.  
 - Each line is in the format: (userID,itemID)\t negativeItemID1\t negativeItemID2 ...
 
-Last Update Date: August 2, 2017
+Last Update Date: May 23, 2018
