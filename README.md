@@ -1,6 +1,6 @@
 # Neural Collaborative Filtering
 
-This is an hand-on workshop for neural collaborative filtering (dimensionality reduction using deep neural networks) based the paper:
+This repository contains materials for hand-on workshop for neural collaborative filtering (dimensionality reduction using deep neural networks) based the paper:
 
 Xiangnan He, Lizi Liao, Hanwang Zhang, Liqiang Nie, Xia Hu and Tat-Seng Chua (2017). [Neural Collaborative Filtering.](http://dl.acm.org/citation.cfm?id=3052569) In Proceedings of WWW '17, Perth, Australia, April 03-07, 2017.
 
@@ -17,9 +17,9 @@ We use Keras with Tensorflow as the backend.
 
 ## Notebooks
 
-neural_collaborative_filtering.ipynb - a jupyter notebook for running the examples, with missing code to be filled by participants.
+*neural_collaborative_filtering.ipynb*: a jupyter notebook for running the examples, with missing code to be filled by participants.
 
-neural_collaborative_filtering - Sol.ipynb - the complete jupyter notebook for running the examples.
+*Solution\neural_collaborative_filtering - Sol.ipynb*: the complete jupyter notebook for running the examples.
 
 ## Example to run the original codes
 The instruction of commands has been clearly stated in the codes (see the  parse_args function). 
